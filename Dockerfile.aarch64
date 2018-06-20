@@ -9,6 +9,7 @@ RUN go get github.com/magiconair/properties
 RUN go get gopkg.in/yaml.v2
 RUN go get github.com/BurntSushi/toml
 RUN go get github.com/fatih/structs
+RUN go get golang.org/x/tools/cmd/cover
 
 # Set the working directory
 
